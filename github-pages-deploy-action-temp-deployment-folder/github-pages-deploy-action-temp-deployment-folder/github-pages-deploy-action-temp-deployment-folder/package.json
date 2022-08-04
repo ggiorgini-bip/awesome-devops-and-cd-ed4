@@ -5,8 +5,7 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "start": "nodemon app/server.js",
-    "dev": "parcel serve app/public/index.html",
+    "start": "node bin/start.mjs",
     "test": "mocha"
   },
   "repository": {
@@ -19,13 +18,7 @@
     "url": "https://github.com/ivoputzer/awesome-devops-and-cd-ed4/issues"
   },
   "homepage": "https://github.com/ivoputzer/awesome-devops-and-cd-ed4#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^2.3.0"
-  },
   "devDependencies": {
-    "mocha": "^10.0.0",
-    "nodemon": "^2.0.19",
-    "parcel": "^2.7.0"
+    "mocha": "^10.0.0"
   }
 }
